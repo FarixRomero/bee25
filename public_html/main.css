@@ -1,0 +1,577 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+/* FOOTER */
+footer {
+  width: 100%;
+  background: #202020;
+  color: white;
+}
+
+.container-footer-all {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+
+.container-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.colum1 {
+  max-width: 400px;
+}
+
+.colum1 h1 {
+  font-size: 22px;
+}
+
+.colum1 p {
+  font-size: 14px;
+  color: #c7c7c7;
+  margin-top: 20px;
+}
+
+.colum2 {
+  max-width: 400px;
+}
+
+.colum2 h1 {
+  font-size: 22px;
+}
+
+.row {
+  margin-top: 20px;
+  display: flex;
+}
+
+.row img {
+  width: 36px;
+  height: 36px;
+}
+
+.row label {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #c7c7c7;
+}
+
+.colum3 {
+  max-width: 400px;
+}
+
+.colum3 h1 {
+  font-size: 22px;
+}
+
+.row2 {
+  margin-top: 20px;
+  display: flex;
+}
+
+.row2 img {
+  width: 36px;
+  height: 36px;
+}
+
+.row2 label {
+  margin-top: 10px;
+  margin-left: 20px;
+  max-width: 140px;
+}
+
+.container-footer {
+  width: 100%;
+  background: #101010;
+}
+
+.footer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.copyright {
+  color: #c7c7c7;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.information a {
+  text-decoration: none;
+  color: #c7c7c7;
+}
+
+@media screen and (max-width: 1100px) {
+  .container-body {
+    flex-wrap: wrap;
+  }
+
+  .colum1 {
+    max-width: 100%;
+  }
+
+  .colum2,
+  .colum3 {
+    margin-top: 40px;
+  }
+}
+/* ACABA FOOTER */
+
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  /* font-weight: 800; */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  height: 80px;
+  background: #fff;
+  z-index: 3;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  width: calc(40vw);
+  justify-content: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 5%;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.seccion1 {
+  width: 100%;
+  height: calc(80vh - 60px);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.conteiner1 {
+  text-align: center;
+  width: 80%;
+  font-size: 40px;
+}
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid2 img {
+  width: 100%;
+  min-width: 500px;
+  /* height: 100%; */
+  min-height: 400px;
+}
+.grid2 div {
+  text-align: center;
+  width: 100%;
+  /* height: 100%; */
+  justify-content: CENTER;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+}
+.grid2 p {
+  width: 80%;
+}
+.grid4 {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 70%;
+}
+.seccion {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-content: center;
+}
+.container4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 70%;
+}
+.seccion4_img {
+  height: 230px;
+  align-self: center;
+  justify-self: center;
+  margin-left: 10%;
+}
+.centrado {
+  align-self: center;
+  justify-self: center;
+}
+.creemos {
+  background: url(https://lamenteesmaravillosa.com/wp-content/uploads/2015/01/mujer-en-proceso-creativo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.h3 {
+  font-size: 50px;
+  color: #ffffff;
+  justify-content: center;
+  align-self: center;
+  text-align: left;
+  justify-self: center;
+  text-justify: center;
+}
+
+/* form */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+}
+.contact-section {
+  background: #1758d1;
+  background-size: cover;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-section h1 {
+  text-align: center;
+  color: #ddd;
+}
+.border {
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+  width: calc(50vw);
+  justify-self: center;
+  align-self: center;
+}
+.container-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+}
+.container-form h1 {
+  width: 500px;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 8px 0;
+  border: 0;
+  background: #77a5d6;
+  opacity: 0.5;
+  padding: 10px 20px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-form-text:focus {
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text {
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover {
+  background: #2980b9;
+}
+
+/* nosotros */
+.nosotros {
+  background: url(images/nosotros.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(60vh - 60px);
+  position: relative;
+}
+.bee25 {
+  position: absolute;
+  /* bottom: 10px; */
+  /* display: block; */
+  color: white;
+  font-size: 80px;
+  right: 10px;
+  right: calc(20vw);
+}
+.fondobee {
+  background: #48e5bc;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  height: 400px;
+}
+.fondobee img {
+  height: calc(40vh - 60px);
+  width: auto;
+  position: absolute;
+  right: 0;
+}
+.beeback{
+  background: #6A88D0;
+  height: 400px;
+
+}
+.infoclases{
+  background: #E9196D;
+  height: 400px;
+  position: relative;
+
+}
+.infoclases div{
+  position: relative;
+
+}
+.infoclases h2{
+  font-size: 48px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  left: 100px;
+}
+.infoclases p{
+  text-align: right;
+
+
+}
+.imagen600{
+
+  height: 600px;
+}
+.container ul{
+  transition: all 0.5s ease-in-outulCreemos;
+
+}
+.beeback h2{
+
+  font-size: 48px;
+  line-height: normal;
+    letter-spacing: normal;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    right: 50px;
+}
+.left h2{
+  right: auto;
+  left: 50px;
+
+
+}
+.beeback ul{
+    color: white;
+}
+.beeback div{
+  position: relative;
+  min-height: 200px;
+}
+.ulCreemos{
+    width: 80%;
+    text-align: left;
+    color: white;
+}
+.colorBlue{
+  background-color: #155DE9;
+  color:white;
+  height: 100%;
+  }
+
+  @media (max-width: 858px) {
+    .grid2 {
+      display: flex;
+      flex-direction: column;
+    }
+    .checkbtn {
+      display: block;
+      color: black;
+    }
+    .container-form {
+      width: 100%;}
+      .beeback{
+        height: auto;
+        min-height: 500px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+
+      }
+      .infoclases{
+        height: auto;
+        min-height: 500px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column-reverse;
+
+      }
+      .infoclases div{
+        min-height: 200px;
+
+      }
+      .infoclases p {
+        text-align: justify;
+        width: 60%;
+    }
+    ul {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all 0.5s;
+    }
+    nav ul {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all 0.5s;
+      flex-direction: column;
+    }
+    nav ul li {
+      display: block;
+      /* margin: 50px 0; */
+      line-height: 30px;
+    }
+    nav ul li a {
+      font-size: 20px;
+      color: white;
+    }
+    a:hover,
+    a.active {
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul {
+      left: 0;
+    }
+    .creemos{
+      min-height:500px;
+    }
+ 
+  }
+  
